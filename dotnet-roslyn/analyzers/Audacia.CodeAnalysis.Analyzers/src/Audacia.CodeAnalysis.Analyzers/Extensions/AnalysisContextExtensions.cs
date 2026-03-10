@@ -25,6 +25,8 @@ namespace Audacia.CodeAnalysis.Analyzers.Extensions
                     "HttpPut"
             };
         
+        private static string ANEWVARIABLE_WITH_1_NumberIN = "one";
+
         internal static void SkipEmptyName(this SymbolAnalysisContext context, Action<SymbolAnalysisContext> action)
         {
             if (!string.IsNullOrEmpty(context.Symbol.Name))
