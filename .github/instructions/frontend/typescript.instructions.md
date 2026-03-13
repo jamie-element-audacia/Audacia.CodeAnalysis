@@ -3,19 +3,6 @@ description: 'Guidelines for TypeScript Development targeting TypeScript 5.x and
 applyTo: '**/*.ts'
 ---
 
-## How to apply these rules
-- **MUST**: follow by default.
-- **SHOULD**: follow unless local codebase conventions or a clear technical reason justify otherwise.
-- **COULD**: optional improvement; avoid churn.
-- If repo conventions are stricter, follow the repo.
-- Separate secure coding and automated testing standards exist but are outside this summary.
-
-## Global principles
-- Prefer readability, maintainability, low surprise, and minimal accidental complexity.
-- Follow official ecosystem conventions where referenced:
-  - C#: Microsoft conventions and framework guidance.
-- Prefer KISS, YAGNI, DRY.
-
 ## TypeScript
 ### General
 - Prefer explicit, readable typing.
@@ -75,9 +62,3 @@ applyTo: '**/*.ts'
 ### Vue
 - Public overview exists, but detailed rules are behind login.
 - Do not infer or fabricate Vue-specific standards from this site.
-
-## AI default behavior
-- Apply all **MUST** rules automatically.
-- Apply **SHOULD** rules unless the repository already uses a stronger or conflicting local convention.
-- Use **COULD** rules only when they improve clarity without causing unnecessary churn.
-- When information is unavailable from the public site, state that clearly rather than guessing.

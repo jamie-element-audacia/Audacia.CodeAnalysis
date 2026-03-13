@@ -1,20 +1,7 @@
-
-
-
-## How to apply these rules
-- **MUST**: follow by default.
-- **SHOULD**: follow unless local codebase conventions or a clear technical reason justify otherwise.
-- **COULD**: optional improvement; avoid churn.
-- If repo conventions are stricter, follow the repo.
-- Separate secure coding and automated testing standards exist but are outside this summary.
-- Vue-specific content on the site is not publicly readable; do not invent Vue rules.
-
-## Global principles
-- Prefer readability, maintainability, low surprise, and minimal accidental complexity.
-- Follow official ecosystem conventions where referenced:
-  - TypeScript: Airbnb-style guidance enforced via ESLint where possible.
-  - HTML/CSS: Google HTML/CSS Style Guide plus Audacia deviations.
-- Prefer KISS, YAGNI, DRY.
+---
+description: 'CSS Styling guidelines'
+applyTo: '**/*.css'
+---
 
 ### Baseline
 - Use Google HTML/CSS Style Guide as the base.
@@ -55,9 +42,3 @@
   - section,
   - element.
 - Use standardized element types.
-
-## AI default behavior
-- Apply all **MUST** rules automatically.
-- Apply **SHOULD** rules unless the repository already uses a stronger or conflicting local convention.
-- Use **COULD** rules only when they improve clarity without causing unnecessary churn.
-- When information is unavailable from the public site, state that clearly rather than guessing.

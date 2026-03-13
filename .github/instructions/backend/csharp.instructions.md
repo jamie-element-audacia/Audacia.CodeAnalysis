@@ -3,19 +3,6 @@ description: 'Guidelines for building C# applications'
 applyTo: '**/*.cs'
 ---
 
-## How to apply these rules
-- **MUST**: follow by default.
-- **SHOULD**: follow unless local codebase conventions or a clear technical reason justify otherwise.
-- **COULD**: optional improvement; avoid churn.
-- If repo conventions are stricter, follow the repo.
-- Separate secure coding and automated testing standards exist but are outside this summary.
-
-## Global principles
-- Prefer readability, maintainability, low surprise, and minimal accidental complexity.
-- Follow official ecosystem conventions where referenced:
-  - C#: Microsoft conventions and framework guidance.
-- Prefer KISS, YAGNI, DRY.
-
 ### Design
 - Single responsibility for classes/interfaces.
 - Keep interfaces small and focused.
@@ -103,9 +90,3 @@ applyTo: '**/*.cs'
 - Put extension methods in classes ending with `Extensions`.
 - Suffix async methods with `Async` or `TaskAsync`.
 - Avoid vague “Data”-like suffixes in entity names.
-
-## AI default behavior
-- Apply all **MUST** rules automatically.
-- Apply **SHOULD** rules unless the repository already uses a stronger or conflicting local convention.
-- Use **COULD** rules only when they improve clarity without causing unnecessary churn.
-- When information is unavailable from the public site, state that clearly rather than guessing.
