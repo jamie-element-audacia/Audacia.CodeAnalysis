@@ -1,0 +1,5 @@
+/* TODO: reorganize selectors */
+DIV.mainContent{color:#ffffff;background-color:#FF0000;margin:0px 0px 0px 0px;padding:0px 10px 0px 10px;}
+#HeroSection .BadClass li A[title="Link"]{TEXT-DECORATION:none !important;font-family:"Times New Roman", serif;line-height:0.50em;color:#AABBCC;}
+span.badClass{border:0px solid #000000; background:url('http://example.com/image.png');}
+input[type="text"]{outline: none;}
